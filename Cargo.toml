@@ -1,0 +1,13 @@
+[package]
+name = "music-key"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+argh = "0.1.12"
+colored = "2.1.0"
+rand = "0.8.5"
+
+[[bin]]
+name = "muskey"
+path = "src/main.rs"
